@@ -16,7 +16,7 @@ Explicit & Fluent Waits for Synchronization
 
 Data-Driven Testing using Excel/JSON
 
-Docker Support for Selenium Grid
+Docker Support for ReportPortal
 
 Logging & Debugging using Log4j
 
@@ -30,19 +30,13 @@ Custom Exception Handling for API Failures
 
 JWT & Basic Authentication
 
-Database Validation using JDBC
-
 Security Testing with OWASP ZAP
 
 ✅ Reporting & CI/CD
 
-Advanced Reporting: Extent, Allure, ReportPortal
+Advanced Reporting: ReportPortal Docker base container
 
 Retry Mechanism for Flaky Tests
-
-Integration with Jenkins & GitHub Actions
-
-Test Management Integration: JIRA, TestRail
 
 🛠️ Installation & Setup
 
@@ -89,30 +83,16 @@ Set Git Repository URL
 
 Add Build Step: mvn clean test
 
-🔹 Run Tests in GitHub Actions
-
-GitHub Actions YAML (.github/workflows/test.yml):
-name: Run Automation Tests
-on: [push]
-jobs:
-  test:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout Code
-        uses: actions/checkout@v2
-      - name: Set up Java
-        uses: actions/setup-java@v2
-        with:
-          java-version: '17'
-      - name: Run Tests
-        run: mvn clean test
-
 🚀 Future Enhancements
 
 ✅ BDD Support (Cucumber)
 ✅ Mobile Testing (Appium)
 ✅ Cloud Testing (BrowserStack, SauceLabs)
 ✅ Performance Testing (JMeter)
+✅ Integration with Jenkins & GitHub Actions
+✅ Security Testing with OWASP ZAP
+
+Test Management Integration: JIRA, TestRail
 
 📝 Contributors
 
