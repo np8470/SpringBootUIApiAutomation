@@ -44,25 +44,6 @@ Integration with Jenkins & GitHub Actions
 
 Test Management Integration: JIRA, TestRail
 
-📂 Project Structure
-├── src
-│   ├── main
-│   │   ├── java
-│   │   │   ├── com.example.base         # Base classes (WebDriver, API setup)
-│   │   │   ├── com.example.pages        # Page Object Model (POM) classes
-│   │   │   ├── com.example.api          # API utilities & models
-│   │   │   ├── com.example.utils        # Utility classes (Excel, JSON, Logs)
-│   │   │   ├── com.example.constants    # Framework Constants
-│   ├── test
-│   │   ├── java
-│   │   │   ├── com.example.tests.ui     # TestNG Web UI test cases
-│   │   │   ├── com.example.tests.api    # TestNG API test cases
-│   │   ├── resources
-│   │   │   ├── testdata                 # Test data (Excel, JSON)
-│   │   │   ├── config.properties        # Global configurations
-├── pom.xml                              # Maven Dependencies
-├── README.md                            # Project Documentation
-
 🛠️ Installation & Setup
 
 🔹 Prerequisites
@@ -96,6 +77,7 @@ mvn test -Pfirefox
 📊 Reports & Logs
 
 ✅ Generate Report in ReportPortal Docker Container
+
 
 🔄 CI/CD Integration
 
@@ -134,6 +116,6 @@ jobs:
 
 📝 Contributors
 
-Your Name - [GitHub Profile](https://github.com/np8470)
+Your Name - [Niraj Patel](https://github.com/np8470)
 
 Feel free to contribute! 😊
