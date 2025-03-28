@@ -1,0 +1,16 @@
+{
+  "firstname": "Niraj",
+  "lastname": "Patel",
+  "street": "1- Homeland Appartment",
+  "city":"Gandhinagar",
+  "state":"Gujarat",
+  "postcode":"38242010",
+  "country":"India",
+  "email":"test@test.com",
+  "date":"05/31/2030",
+  "hour": "10",
+  "minute": "10",
+  "mobile": "9876543210",
+  "query": "This is the first SpringBoot Selenium Java automation demo.",
+  "message": "Registration Form is Successfully Submitted."
+}

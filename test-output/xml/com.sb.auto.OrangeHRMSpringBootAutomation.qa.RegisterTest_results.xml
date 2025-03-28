@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Registration Form Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="25.855">
+  <properties />
+  
+  
+            <testcase name="registerTest" time="25.855" classname="com.sb.auto.OrangeHRMSpringBootAutomation.qa.RegisterTest" />
+      
+</testsuite>

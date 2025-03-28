@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-03-28T06:32:26 EDT" name="SpringBoot Selenium Test Automation Suite" finished-at="2025-03-28T06:32:59 EDT" duration-ms="32631">
+    <groups>
+    </groups>
+    <test started-at="2025-03-28T06:32:26 EDT" name="API Test" finished-at="2025-03-28T06:32:59 EDT" duration-ms="32631">
+      <class name="com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:46 EDT" name="springTestContextBeforeTestClass" finished-at="2025-03-28T06:32:46 EDT" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:46 EDT" name="springTestContextPrepareTestInstance" finished-at="2025-03-28T06:32:46 EDT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:46 EDT" name="setUp" finished-at="2025-03-28T06:32:46 EDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:46 EDT" name="springTestContextBeforeTestMethod" finished-at="2025-03-28T06:32:46 EDT" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest.healthCheckTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="healthCheckTest()[pri:1, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:46 EDT" name="healthCheckTest" finished-at="2025-03-28T06:32:48 EDT" duration-ms="1548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- healthCheckTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:48 EDT" name="springTestContextAfterTestMethod" finished-at="2025-03-28T06:32:48 EDT" duration-ms="8" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest.healthCheckTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:48 EDT" name="springTestContextBeforeTestMethod" finished-at="2025-03-28T06:32:48 EDT" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest.getBookingIDsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="getBookingIDsTest()[pri:2, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:48 EDT" name="getBookingIDsTest" finished-at="2025-03-28T06:32:49 EDT" duration-ms="1375" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingIDsTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:49 EDT" name="springTestContextAfterTestMethod" finished-at="2025-03-28T06:32:49 EDT" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest.getBookingIDsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:49 EDT" name="springTestContextBeforeTestMethod" finished-at="2025-03-28T06:32:49 EDT" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest.getBookingTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="getBookingTest()[pri:3, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:49 EDT" name="getBookingTest" finished-at="2025-03-28T06:32:51 EDT" duration-ms="1442" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBookingTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:51 EDT" name="springTestContextAfterTestMethod" finished-at="2025-03-28T06:32:51 EDT" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest.getBookingTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:51 EDT" name="springTestContextBeforeTestMethod" finished-at="2025-03-28T06:32:51 EDT" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest.createBookingTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="createBookingTest()[pri:4, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:51 EDT" name="createBookingTest" finished-at="2025-03-28T06:32:55 EDT" duration-ms="4511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createBookingTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:55 EDT" name="springTestContextAfterTestMethod" finished-at="2025-03-28T06:32:55 EDT" duration-ms="15" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest.createBookingTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:55 EDT" name="springTestContextBeforeTestMethod" finished-at="2025-03-28T06:32:55 EDT" duration-ms="9" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest.updateBookingTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="updateBookingTest()[pri:5, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:55 EDT" name="updateBookingTest" finished-at="2025-03-28T06:32:57 EDT" duration-ms="1463" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateBookingTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:57 EDT" name="springTestContextAfterTestMethod" finished-at="2025-03-28T06:32:57 EDT" duration-ms="49" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest.updateBookingTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:57 EDT" name="springTestContextBeforeTestMethod" finished-at="2025-03-28T06:32:57 EDT" duration-ms="54" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest.deleteBookingTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="deleteBookingTest()[pri:6, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:57 EDT" name="deleteBookingTest" finished-at="2025-03-28T06:32:59 EDT" duration-ms="1535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteBookingTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:59 EDT" name="springTestContextAfterTestMethod" finished-at="2025-03-28T06:32:59 EDT" duration-ms="64" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest.deleteBookingTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest@63d4f0a2]" started-at="2025-03-28T06:32:59 EDT" name="springTestContextAfterTestClass" finished-at="2025-03-28T06:32:59 EDT" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest -->
+      <class name="com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest">
+        <test-method is-config="true" signature="springTestContextBeforeTestClass()[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest@5a8ab2]" started-at="2025-03-28T06:32:26 EDT" name="springTestContextBeforeTestClass" finished-at="2025-03-28T06:32:26 EDT" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method is-config="true" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest@5a8ab2]" started-at="2025-03-28T06:32:27 EDT" name="springTestContextPrepareTestInstance" finished-at="2025-03-28T06:32:39 EDT" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" duration-ms="12807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest@5a8ab2]" started-at="2025-03-28T06:32:39 EDT" name="setUp" finished-at="2025-03-28T06:32:39 EDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest@5a8ab2]" started-at="2025-03-28T06:32:39 EDT" name="springTestContextBeforeTestMethod" finished-at="2025-03-28T06:32:41 EDT" duration-ms="1567" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest.createNewUserTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="createNewUserTest()[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest@5a8ab2]" started-at="2025-03-28T06:32:41 EDT" name="createNewUserTest" finished-at="2025-03-28T06:32:44 EDT" duration-ms="3296" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewUserTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest@5a8ab2]" started-at="2025-03-28T06:32:44 EDT" name="springTestContextAfterTestMethod" finished-at="2025-03-28T06:32:44 EDT" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest.createNewUserTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest@5a8ab2]" started-at="2025-03-28T06:32:44 EDT" name="springTestContextBeforeTestMethod" finished-at="2025-03-28T06:32:44 EDT" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest.deleteUserTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="deleteUserTest()[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest@5a8ab2]" started-at="2025-03-28T06:32:44 EDT" name="deleteUserTest" finished-at="2025-03-28T06:32:45 EDT" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUserTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest@5a8ab2]" started-at="2025-03-28T06:32:45 EDT" name="springTestContextAfterTestMethod" finished-at="2025-03-28T06:32:45 EDT" duration-ms="13" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest.deleteUserTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest@5a8ab2]" started-at="2025-03-28T06:32:45 EDT" name="springTestContextBeforeTestMethod" finished-at="2025-03-28T06:32:45 EDT" duration-ms="17" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest.getUserDetailsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="getUserDetailsTest()[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest@5a8ab2]" started-at="2025-03-28T06:32:45 EDT" name="getUserDetailsTest" finished-at="2025-03-28T06:32:45 EDT" duration-ms="403" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUserDetailsTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest@5a8ab2]" started-at="2025-03-28T06:32:46 EDT" name="springTestContextAfterTestMethod" finished-at="2025-03-28T06:32:46 EDT" duration-ms="34" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest.getUserDetailsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest@5a8ab2]" started-at="2025-03-28T06:32:46 EDT" name="springTestContextBeforeTestMethod" finished-at="2025-03-28T06:32:46 EDT" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest.updateUserTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method signature="updateUserTest()[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest@5a8ab2]" started-at="2025-03-28T06:32:46 EDT" name="updateUserTest" finished-at="2025-03-28T06:32:46 EDT" duration-ms="781" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUserTest -->
+        <test-method is-config="true" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest@5a8ab2]" started-at="2025-03-28T06:32:46 EDT" name="springTestContextAfterTestMethod" finished-at="2025-03-28T06:32:46 EDT" duration-ms="19" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest.updateUserTest() throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method is-config="true" signature="springTestContextAfterTestClass()[pri:0, instance:com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest@5a8ab2]" started-at="2025-03-28T06:32:46 EDT" name="springTestContextAfterTestClass" finished-at="2025-03-28T06:32:46 EDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest -->
+    </test> <!-- API Test -->
+  </suite> <!-- SpringBoot Selenium Test Automation Suite -->
+</testng-results>

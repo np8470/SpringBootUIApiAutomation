@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API Test"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="11.874">
+  <properties />
+  
+  
+            <testcase name="getBookingTest" time="1.442" classname="com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest" />
+                <testcase name="healthCheckTest" time="1.548" classname="com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest" />
+                <testcase name="getBookingIDsTest" time="1.375" classname="com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest" />
+                <testcase name="deleteBookingTest" time="1.535" classname="com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest" />
+                <testcase name="createBookingTest" time="4.511" classname="com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest" />
+                <testcase name="updateBookingTest" time="1.463" classname="com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest" />
+      
+</testsuite>

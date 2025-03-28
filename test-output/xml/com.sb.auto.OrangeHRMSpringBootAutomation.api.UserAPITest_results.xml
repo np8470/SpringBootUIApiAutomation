@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="API Test"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.126">
+  <properties />
+  
+  
+            <testcase name="getUserDetailsTest" time="0.403" classname="com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest" />
+                <testcase name="deleteUserTest" time="0.646" classname="com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest" />
+                <testcase name="createNewUserTest" time="3.296" classname="com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest" />
+                <testcase name="updateUserTest" time="0.781" classname="com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest" />
+      
+</testsuite>

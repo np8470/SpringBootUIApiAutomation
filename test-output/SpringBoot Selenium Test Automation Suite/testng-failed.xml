@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SpringBoot Selenium Test Automation Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.sb.auto.OrangeHRMSpringBootAutomation.framework.listener.TestListener"/>
+    <listener class-name="com.sb.auto.OrangeHRMSpringBootAutomation.framework.listener.TestNgReportListener"/>
+    <listener class-name="com.sb.auto.OrangeHRMSpringBootAutomation.framework.listener.ReportPortalExecutionListener"/>
+    <listener class-name="com.sb.auto.OrangeHRMSpringBootAutomation.framework.listener.TestMethodListener"/>
+    <listener class-name="com.sb.auto.OrangeHRMSpringBootAutomation.framework.listener.TestAnnotationTransformer"/>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="org.testng.reporters.EmailableReporter2"/>
+    <listener class-name="org.testng.reporters.FailedReporter"/>
+    <listener class-name="org.testng.reporters.SuiteHTMLReporter"/>
+    <listener class-name="org.testng.reporters.XMLReporter"/>
+    <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener"/>
+  </listeners>
+  <test thread-count="5" name="API Test(failed)" verbose="0">
+    <classes>
+      <class name="com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest">
+        <methods>
+          <include name="deleteBookingTest"/>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestMethod"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest -->
+    </classes>
+  </test> <!-- API Test(failed) -->
+</suite> <!-- Failed suite [SpringBoot Selenium Test Automation Suite] -->

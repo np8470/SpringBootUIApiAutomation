@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.1.dtd">
+<suite name="SpringBoot Selenium Test Automation Suite" verbose="10">
+
+    <listeners>
+        <listener class-name="com.sb.auto.OrangeHRMSpringBootAutomation.framework.listener.TestListener"/>
+        <listener class-name="com.sb.auto.OrangeHRMSpringBootAutomation.framework.listener.TestNgReportListener"/>
+        <listener class-name="com.sb.auto.OrangeHRMSpringBootAutomation.framework.listener.ReportPortalExecutionListener"/>
+        <listener class-name="com.sb.auto.OrangeHRMSpringBootAutomation.framework.listener.TestMethodListener"/>
+        <!--<listener class-name="com.sb.auto.OrangeHRMSpringBootAutomation.framework.listener.TestRetryAnalyzer"/>-->
+        <listener class-name="com.sb.auto.OrangeHRMSpringBootAutomation.framework.listener.TestAnnotationTransformer"/>
+
+
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+        <!-- TestNG Default Reporters -->
+
+        <listener class-name="org.testng.reporters.EmailableReporter2"/>
+        <listener class-name="org.testng.reporters.FailedReporter"/>
+        <listener class-name="org.testng.reporters.SuiteHTMLReporter"/>
+        <listener class-name="org.testng.reporters.XMLReporter"/>
+
+        <listener class-name="com.epam.reportportal.testng.ReportPortalTestNGListener"/>
+
+    </listeners>
+
+    <!--<test name="Registration Form Test">
+        <classes>
+            <class name="com.sb.auto.OrangeHRMSpringBootAutomation.qa.RegisterTest"/>
+        </classes>
+    </test>-->
+
+    <test name="API Test">
+        <classes>
+            <class name="com.sb.auto.OrangeHRMSpringBootAutomation.api.UserAPITest"/>
+            <class name="com.sb.auto.OrangeHRMSpringBootAutomation.api.BookingAPITest"/>
+        </classes>
+    </test>
+</suite>
